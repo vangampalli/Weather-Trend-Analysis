@@ -1,0 +1,10 @@
+.box {
+    height: 400px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background: rgba(243, 209, 116, 0.712);
+  }
+
+.font {
+    font-size:28px;
+}

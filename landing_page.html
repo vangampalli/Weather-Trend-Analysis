@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latitude vs X</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Latitude vs X</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+</head>
+<body>
+    <!--Summary Box-->
+    <h1>Summary</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box">
+                    <h1 class= "font">This website uses API from OpenWeather and Google Maps to analyze weather trends and make searches for ideal vacation locations based on those trends. Analyses for weather patterns were done using Pandas and Matplotlib. Charts from these analyses are shown in the provided links. </h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="">
+                                <img src="Resources/Lat_vs_Cloudiness.png" alt = "X = Cloudiness" height = "175" width = "250">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="">
+                                <img src="Resources/Lat_vs_Humidity.png" alt = "X = Humidity" height = "175" width = "250">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="">
+                                <img src="Resources/Lat_vs_Speed.png" alt = "X = Wind Speed" height = "175" width = "250">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="">
+                                <img src="Resources/Lat_vs_Temp.png" alt = "X = Temperature"height = "175" width = "250">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
