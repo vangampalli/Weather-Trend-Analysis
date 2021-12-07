@@ -5,6 +5,13 @@
     background: rgba(243, 209, 116, 0.712);
   }
 
+.box2 {
+    height: 500px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background: rgba(243, 209, 116, 0.712);
+  }
+
 .font {
     font-size:28px;
 }

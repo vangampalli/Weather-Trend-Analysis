@@ -7,32 +7,39 @@
     <title>Latitude vs X</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <!--Bootstrap navbar-->
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">Latitude vs X</a>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://vangampalli.github.io/Web-Design-Challenge-/landing_page.html">Summary</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="https://vangampalli.github.io/Web-Design-Challenge-/comparisons.html">Chart Comparisons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="https://vangampalli.github.io/Web-Design-Challenge-/data.html">Source Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="https://vangampalli.github.io/Web-Design-Challenge-/cloudiness.html">Latitude vs Cloudiness</a>
+                <a class="dropdown-item" href="https://vangampalli.github.io/Web-Design-Challenge-/humidity.html">Latitude vs Humidity</a>
+                <a class="dropdown-item" href="https://vangampalli.github.io/Web-Design-Challenge-/speed.html">Latitude vs Speed</a>
+                <a class="dropdown-item" href="https://vangampalli.github.io/Web-Design-Challenge-/temp.html">Latitude vs Temperature</a>
+              </div>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
-</head>
+
 <body>
     <!--Summary Box-->
     <h1>Summary</h1>
@@ -47,24 +54,24 @@
                 <div class="box">
                     <div class="row">
                         <div class="col-md-6">
-                            <a href="">
+                            <a href="https://vangampalli.github.io/Web-Design-Challenge-/cloudiness.html">
                                 <img src="Resources/Lat_vs_Cloudiness.png" alt = "X = Cloudiness" height = "175" width = "250">
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="">
+                            <a href="https://vangampalli.github.io/Web-Design-Challenge-/humidity.html">
                                 <img src="Resources/Lat_vs_Humidity.png" alt = "X = Humidity" height = "175" width = "250">
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <a href="">
+                            <a href="https://vangampalli.github.io/Web-Design-Challenge-/speed.html">
                                 <img src="Resources/Lat_vs_Speed.png" alt = "X = Wind Speed" height = "175" width = "250">
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="">
+                            <a href="https://vangampalli.github.io/Web-Design-Challenge-/temp.html">
                                 <img src="Resources/Lat_vs_Temp.png" alt = "X = Temperature"height = "175" width = "250">
                             </a>
                         </div>
