@@ -12,6 +12,22 @@
     background: rgba(243, 209, 116, 0.712);
   }
 
+  .box3 {
+    height: 800px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background: rgba(243, 209, 116, 0.712);
+  }
+
+  .box4 {
+    height: 300px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background: rgb(247, 247, 247);
+  }
+
+
+
 .font {
     font-size:28px;
 }
